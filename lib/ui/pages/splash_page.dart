@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:bank_sha/shared/theme.dart';
-import 'package:bank_sha/ui/pages/onboarding_page.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatefulWidget {
@@ -12,13 +11,12 @@ class SplashPage extends StatefulWidget {
 }
 
 class _SplashPageState extends State<SplashPage> {
-
   // set timer for two second splash page before navigate to onboarding page.
   @override
   void initState() {
     super.initState();
-    Timer(const Duration(seconds: 2), () { 
-      Navigator.push(context, MaterialPageRoute(builder: (context) => const OnboardingPage()));
+    Timer(const Duration(seconds: 2), () {
+      Navigator.pushNamed(context, '/onboarding');
     });
   }
 
@@ -31,8 +29,8 @@ class _SplashPageState extends State<SplashPage> {
           width: 155,
           height: 50,
           decoration: const BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/img_logo_dark.png'))
-          ),
+              image: DecorationImage(
+                  image: AssetImage('assets/img_logo_dark.png'))),
         ),
       ),
     );

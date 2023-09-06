@@ -10,26 +10,17 @@ Color greenColor = const Color(0xff22B07D);
 Color lightBackgroundColor = const Color(0xffF6F8FB);
 Color darkBackgroundColor = const Color(0xff020518);
 Color numberBackgroundColor = const Color(0xff1A1D2E);
+Color borderTextInputColor = const Color(0xffEFEEF1);
 
-TextStyle blackTextStyle = GoogleFonts.poppins(
-  color: blackColor
-);
+TextStyle blackTextStyle = GoogleFonts.poppins(color: blackColor);
 
-TextStyle whiteTextStyle = GoogleFonts.poppins(
-  color: whiteColor
-);
+TextStyle whiteTextStyle = GoogleFonts.poppins(color: whiteColor);
 
-TextStyle greyTextStyle = GoogleFonts.poppins(
-  color: greyColor
-);
+TextStyle greyTextStyle = GoogleFonts.poppins(color: greyColor);
 
-TextStyle blueTextStyle = GoogleFonts.poppins(
-  color: blueColor
-);
+TextStyle blueTextStyle = GoogleFonts.poppins(color: blueColor);
 
-TextStyle greenTextStyle = GoogleFonts.poppins(
-  color: greenColor
-);
+TextStyle greenTextStyle = GoogleFonts.poppins(color: greenColor);
 
 FontWeight light = FontWeight.w300;
 FontWeight regular = FontWeight.w400;
